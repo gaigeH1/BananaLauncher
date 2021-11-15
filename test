@@ -18,6 +18,13 @@
             "Tertiary": [28, 41, 56],
             "Quaternary": [18, 98, 159]
         },
+        "Banana": {
+            "ThemeIndex": 4,
+            "Primary": [180, 147, 14],
+            "Secondary": [255, 209, 21],
+            "Tertiary": [255, 239, 58],
+            "Quaternary": [254, 255, 161]
+        },
         "Dark": {
             "ThemeIndex": 2,
             "Primary": [25, 25, 25],
@@ -45,6 +52,7 @@
             "Secondary": [55, 0, 180],
             "Tertiary": [60, 0, 185],
             "Quaternary": [0, 135, 135]
+            
         }
     }
 }

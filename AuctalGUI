@@ -81,7 +81,7 @@ local EzHub = {
 	Frame_9 = Instance.new("Frame"),
 	TextLabel_9 = Instance.new("TextLabel"),
 	OtherFrame = Instance.new("ImageLabel"),
-	Donate = Instance.new("TextButton"),
+	Donate = Instance.new("TextButton")
 	UICorner_17 = Instance.new("UICorner"),
 	Discord = Instance.new("TextButton"),
 	UICorner_18 = Instance.new("UICorner"),
@@ -2022,7 +2022,7 @@ if not EzHub.NewsText.TextFits then
 	EzHub.NewsText.Text = "News message too long. Please use the launcher to view this news data.";
 end
 
-EzHub.TextLabel_8.Text = "Hello "..game.Players.LocalPlayer.Name..", Thank you for using Ez Hub";
+EzHub.TextLabel_8.Text = "Hello "..game.Players.LocalPlayer.Name..", Thank you for using Banana Hub";
 
 local ezlib = loadstring(_G["EzHubModules"]["ezlib"])();
 
@@ -2125,7 +2125,7 @@ EzHub.Donate.MouseButton1Click:Connect(function()
 
 	EzHub.Donate.Text = "Teleporting...";
 	ezlib.newNotif(ezlib.enum.notifType.text, "Teleporting to donation place...").play().delete();
-	game:GetService("TeleportService"):Teleport(5896209906, game:GetService("Players").LocalPlayer);
+	game:GetService("TeleportService"):Teleport(8011425198, game:GetService("Players").LocalPlayer);
 	wait(2);
 	EzHub.Donate.Text = oldTextDonate;
 
@@ -2138,7 +2138,7 @@ EzHub.Discord.MouseButton1Click:Connect(function()
 	otherSectionButtonDebounce = false;
 
 	EzHub.Discord.Text = "Copied";
-	pcall(function() setclipboard("https://discord.gg/tuWcU7Q") end);
+	pcall(function() setclipboard("https://discord.gg/QV7B7B8msJ") end);
 	wait(2);
 	EzHub.Discord.Text = oldTextDiscord;
 
